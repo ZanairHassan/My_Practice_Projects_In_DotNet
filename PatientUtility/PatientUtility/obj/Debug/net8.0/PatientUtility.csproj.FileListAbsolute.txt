@@ -83,3 +83,4 @@ D:\Projects\My_Practice_Projects_In_DotNet\PatientUtility\PatientUtility\obj\Deb
 D:\Projects\My_Practice_Projects_In_DotNet\PatientUtility\PatientUtility\obj\Debug\net8.0\PatientUtility.pdb
 D:\Projects\My_Practice_Projects_In_DotNet\PatientUtility\PatientUtility\obj\Debug\net8.0\PatientUtility.genruntimeconfig.cache
 D:\Projects\My_Practice_Projects_In_DotNet\PatientUtility\PatientUtility\obj\Debug\net8.0\ref\PatientUtility.dll
+D:\Projects\My_Practice_Projects_In_DotNet\PatientUtility\PatientUtility\obj\Debug\net8.0\PatientUtility.sourcelink.json
