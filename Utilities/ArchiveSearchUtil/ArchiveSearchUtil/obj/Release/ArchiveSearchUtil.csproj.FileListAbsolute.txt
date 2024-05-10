@@ -1,0 +1,7 @@
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\bin\Release\ArchiveSearchUtil.exe.config
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\bin\Release\ArchiveSearchUtil.exe
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\bin\Release\ArchiveSearchUtil.pdb
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Release\ArchiveSearchUtil.csproj.AssemblyReference.cache
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Release\ArchiveSearchUtil.csproj.CoreCompileInputs.cache
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Release\ArchiveSearchUtil.exe
+D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Release\ArchiveSearchUtil.pdb

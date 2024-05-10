@@ -1,0 +1,104 @@
+================== Utility Started running ===========================
+Date:  20240509 03:00:37
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240509 03:25:14
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240509 03:29:05
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240509 03:57:02
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240509 04:04:19
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240509 04:06:17
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240510 01:41:39
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240510 02:47:51
