@@ -20,3 +20,10 @@ D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\Arc
 D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.csproj.CoreCompileInputs.cache
 D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.exe
 D:\HuboWeb\auditproj\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.pdb
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\bin\Debug\ArchiveSearchUtil.exe.config
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\bin\Debug\ArchiveSearchUtil.exe
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\bin\Debug\ArchiveSearchUtil.pdb
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.csproj.AssemblyReference.cache
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.csproj.CoreCompileInputs.cache
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.exe
+D:\Projects\My_Practice_Projects_In_DotNet\Utilities\ArchiveSearchUtil\ArchiveSearchUtil\obj\Debug\ArchiveSearchUtil.pdb
