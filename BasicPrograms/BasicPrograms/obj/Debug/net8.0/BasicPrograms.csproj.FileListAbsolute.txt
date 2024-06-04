@@ -1,0 +1,15 @@
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\bin\Debug\net8.0\BasicPrograms.exe
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\bin\Debug\net8.0\BasicPrograms.deps.json
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\bin\Debug\net8.0\BasicPrograms.runtimeconfig.json
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\bin\Debug\net8.0\BasicPrograms.dll
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\bin\Debug\net8.0\BasicPrograms.pdb
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.AssemblyInfoInputs.cache
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.AssemblyInfo.cs
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.csproj.CoreCompileInputs.cache
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.sourcelink.json
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.dll
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\refint\BasicPrograms.dll
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.pdb
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\BasicPrograms.genruntimeconfig.cache
+D:\Projects\My_Practice_Projects_In_DotNet\BasicPrograms\BasicPrograms\obj\Debug\net8.0\ref\BasicPrograms.dll
