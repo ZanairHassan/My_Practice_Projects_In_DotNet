@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\databaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\databaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\searchzipfilefromfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\checkzipfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|d:\\projects\\my_practice_projects_in_dotnet\\patientutility\\patientutility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D431B9-2AFF-4C8E-8331-A8504EFB0886}|PatientUtility\\PatientUtility.csproj|solutionrelative:patientutility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DatabaseClass.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\DatabaseClass.cs",
               "RelativeDocumentMoniker": "PatientUtility\\DatabaseClass.cs",
               "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\DatabaseClass.cs",
               "RelativeToolTip": "PatientUtility\\DatabaseClass.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAIwEYAAABbAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwDQAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T10:48:23.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\Program.cs",
               "RelativeDocumentMoniker": "PatientUtility\\Program.cs",
@@ -59,24 +59,24 @@
               "RelativeToolTip": "PatientUtility\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:27:41.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T09:27:41.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SearchZipFileFromFolder.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\SearchZipFileFromFolder.cs",
               "RelativeDocumentMoniker": "PatientUtility\\SearchZipFileFromFolder.cs",
               "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\SearchZipFileFromFolder.cs",
               "RelativeToolTip": "PatientUtility\\SearchZipFileFromFolder.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAApwDkAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:16:24.132Z"
+              "WhenOpened": "2024-05-07T09:16:24.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\Logger.cs",
               "RelativeDocumentMoniker": "PatientUtility\\Logger.cs",
@@ -84,11 +84,12 @@
               "RelativeToolTip": "PatientUtility\\Logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:10:57.574Z"
+              "WhenOpened": "2024-05-07T09:10:57.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\App.config",
               "RelativeDocumentMoniker": "PatientUtility\\App.config",
@@ -101,15 +102,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CheckZipFile.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\CheckZipFile.cs",
               "RelativeDocumentMoniker": "PatientUtility\\CheckZipFile.cs",
               "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\PatientUtility\\PatientUtility\\CheckZipFile.cs",
               "RelativeToolTip": "PatientUtility\\CheckZipFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:00:49.316Z"
+              "WhenOpened": "2024-05-07T09:00:49.316Z",
+              "EditorCaption": ""
             }
           ]
         }

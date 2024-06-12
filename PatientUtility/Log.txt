@@ -35,3 +35,95 @@ Searched File Found and Extracted....
 Searched File Found and Extracted.... 
 ================== Utility Ended ==========================
 
+================== Utility Started running ===========================
+Date:  20240612 11:52:31
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+An error occurred while inserting data into database: Could not find stored procedure 'InsertPatient'.
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240612 11:54:53
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240612 11:57:44
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+
+================== Utility Started running ===========================
+Date:  20240612 12:04:40
+this is a Zip Folder....
+Searching the Required File in Zip Folder....
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+An error occurred while inserting data into database: Index was outside the bounds of the array.
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+The Data has successfully saved in the table
+Searched File Found and Extracted.... 
+================== Utility Ended ==========================
+

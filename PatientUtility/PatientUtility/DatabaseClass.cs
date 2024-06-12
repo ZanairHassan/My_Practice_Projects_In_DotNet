@@ -50,7 +50,7 @@ namespace PatientUtility
                 {
                     connection.Open();
 
-                    using (SqlCommand command = new SqlCommand("InsertPatient", connection))
+                    using (SqlCommand command = new SqlCommand("InsertOrUpdatePatientDetails", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
 
