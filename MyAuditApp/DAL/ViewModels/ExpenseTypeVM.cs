@@ -9,6 +9,7 @@ namespace DAL.ViewModels
     public class ExpenseTypeVM
     {
         public int UserId { get; set; }
+        public string ExpenseTypeName { get; set; }
         public string ExpenseTypeDescription { get; set; }
         public string JwtToken { get; set; }
     }

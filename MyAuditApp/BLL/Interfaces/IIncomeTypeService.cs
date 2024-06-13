@@ -13,7 +13,7 @@ namespace BLL.Interfaces
         Task<IncomeType> CreateIncomeType(IncomeTypeVM incomeTypeVM);
         Task<IncomeType> UpdateIncomeType(int incomeTypeId, IncomeTypeVM incomeTypeVM);
         Task<IncomeType> GetIncomeType(int incomeTypeId);
-        Task<IncomeType> GetAllIncomeType();
+        Task<List<IncomeType>> GetAllIncomeType();
         Task<IncomeType> DeleteIncomeType(int incomeTypeId);
     }
 }

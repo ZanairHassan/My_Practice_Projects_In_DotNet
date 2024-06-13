@@ -11,9 +11,9 @@ namespace BLL.Interfaces
     public interface IExpenseSubTypeService
     {
         Task<ExpenseSubType> CreateExpenseSubType(ExpenseSubTypeVM expenseSubTypeVM);
-        Task<ExpenseSubType> UpdateExpenseSubType(int expenseSubTypeId,ExpenseSubTypeVM expenseSubTypeVM,ExpenseSubType expenseSubType);
+        Task<ExpenseSubType> UpdateExpenseSubType(int expenseSubTypeId,ExpenseSubTypeVM expenseSubTypeVM);
         Task<ExpenseSubType> DeleteExpenseSubType(int expenseSubTypeId);
         Task<ExpenseSubType> GetExpenseSubType(int expenseSubTypeId);
-        Task<ExpenseSubType> GetAllExpenseSubtype();
+        Task<List<ExpenseSubType>> GetAllExpenseSubtype();
     }
 }

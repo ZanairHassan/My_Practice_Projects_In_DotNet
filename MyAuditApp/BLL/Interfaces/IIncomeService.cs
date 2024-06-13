@@ -14,6 +14,6 @@ namespace BLL.Interfaces
         Task<Income> UpdateIncome(int incomeId,IncomeVM incomeVM);
         Task<Income> DeleteIncome(int incomeId);
         Task<Income> GetIncome(int incomeId);
-        Task<Income> GetAllIncome();
+        Task<List<Income>> GetAllIncome();
     }
 }

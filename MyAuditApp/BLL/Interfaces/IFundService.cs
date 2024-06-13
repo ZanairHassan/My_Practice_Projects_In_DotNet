@@ -14,6 +14,6 @@ namespace BLL.Interfaces
         Task<Fund> UpdateFund(int fundId,FundVM fundVM);
         Task<Fund> DeleteFund(int fundId);
         Task<Fund> GetFund(int fundId);
-        Task<Fund> GetAllFunds();
+        Task<List<Fund>> GetAllFunds();
     }
 }

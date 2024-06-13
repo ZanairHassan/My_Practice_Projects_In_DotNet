@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE4C0293-1B05-4A7D-913C-B385E87218D4}|Utilities\\Utilities.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\utilities\\tokenutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE4C0293-1B05-4A7D-913C-B385E87218D4}|Utilities\\Utilities.csproj|solutionrelative:utilities\\tokenutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\services\\incometypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\services\\incometypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\myauditapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|solutionrelative:myauditapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\interfaces\\iincometypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iincometypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE4C0293-1B05-4A7D-913C-B385E87218D4}|Utilities\\Utilities.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\utilities\\logerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE4C0293-1B05-4A7D-913C-B385E87218D4}|Utilities\\Utilities.csproj|solutionrelative:utilities\\logerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\services\\incomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\services\\incomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\myauditapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|solutionrelative:myauditapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\dal\\viewmodels\\incomevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|solutionrelative:dal\\viewmodels\\incomevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\dal\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\dal\\viewmodels\\fundtypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|solutionrelative:dal\\viewmodels\\fundtypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\interfaces\\iincomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iincomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\services\\fundtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\services\\fundtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\interfaces\\ifundtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ifundtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\dal\\models\\fundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\fundtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\dal\\viewmodels\\expensetypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|solutionrelative:dal\\viewmodels\\expensetypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +59,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LogerClass.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\Utilities\\LogerClass.cs",
-              "RelativeDocumentMoniker": "Utilities\\LogerClass.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\Utilities\\LogerClass.cs",
-              "RelativeToolTip": "Utilities\\LogerClass.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAANAAAA",
+              "Title": "IncomeService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\IncomeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\IncomeService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\IncomeService.cs",
+              "RelativeToolTip": "BLL\\Services\\IncomeService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAqwEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:52:19.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\appsettings.json",
-              "RelativeDocumentMoniker": "MyAuditApp\\appsettings.json",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\appsettings.json",
-              "RelativeToolTip": "MyAuditApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-12T13:52:50.59Z",
+              "WhenOpened": "2024-06-13T10:08:53.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\Program.cs",
-              "RelativeDocumentMoniker": "MyAuditApp\\Program.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\Program.cs",
-              "RelativeToolTip": "MyAuditApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Title": "IncomeVM.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\IncomeVM.cs",
+              "RelativeDocumentMoniker": "DAL\\ViewModels\\IncomeVM.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\IncomeVM.cs",
+              "RelativeToolTip": "DAL\\ViewModels\\IncomeVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:59:34.024Z",
+              "WhenOpened": "2024-06-13T10:14:14.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IIncomeTypeService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Interfaces\\IIncomeTypeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IIncomeTypeService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Interfaces\\IIncomeTypeService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IIncomeTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:31:35.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TokenUtility.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\Utilities\\TokenUtility.cs",
-              "RelativeDocumentMoniker": "Utilities\\TokenUtility.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\Utilities\\TokenUtility.cs",
-              "RelativeToolTip": "Utilities\\TokenUtility.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvygAAAAAAAAA",
+              "Title": "IncomeTypeService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\IncomeTypeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\IncomeTypeService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\IncomeTypeService.cs",
+              "RelativeToolTip": "BLL\\Services\\IncomeTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:04:09.346Z",
+              "WhenOpened": "2024-06-13T10:32:15.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Income.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\Models\\Income.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Income.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\Models\\Income.cs",
+              "RelativeToolTip": "DAL\\Models\\Income.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:27:13.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IIncomeService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Interfaces\\IIncomeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IIncomeService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Interfaces\\IIncomeService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IIncomeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:10:15.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FundTypeService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\FundTypeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\FundTypeService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\FundTypeService.cs",
+              "RelativeToolTip": "BLL\\Services\\FundTypeService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAxwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:43:29.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFundTypeService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Interfaces\\IFundTypeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IFundTypeService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Interfaces\\IFundTypeService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IFundTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:42:34.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FundType.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\Models\\FundType.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\FundType.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\Models\\FundType.cs",
+              "RelativeToolTip": "DAL\\Models\\FundType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:54:45.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExpenseTypeVM.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\ExpenseTypeVM.cs",
+              "RelativeDocumentMoniker": "DAL\\ViewModels\\ExpenseTypeVM.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\ExpenseTypeVM.cs",
+              "RelativeToolTip": "DAL\\ViewModels\\ExpenseTypeVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:29:38.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FundTypeVM.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\FundTypeVM.cs",
+              "RelativeDocumentMoniker": "DAL\\ViewModels\\FundTypeVM.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\FundTypeVM.cs",
+              "RelativeToolTip": "DAL\\ViewModels\\FundTypeVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:55:15.38Z",
               "EditorCaption": ""
             }
           ]
