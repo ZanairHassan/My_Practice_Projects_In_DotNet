@@ -20,6 +20,6 @@ namespace DAL.Models
         public int InsuranceCreatedBy { get; set; }
         public int InsuranceUpdatedBy { get; set; }
         public int InsuranceDeletedBy { get; set; }
-        public int IsDeleted { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
