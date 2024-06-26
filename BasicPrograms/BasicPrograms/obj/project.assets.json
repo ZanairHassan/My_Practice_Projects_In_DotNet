@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Perfect computer\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\BasicPrograms.csproj",
       "projectName": "BasicPrograms",
       "projectPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\BasicPrograms.csproj",
-      "packagesPath": "C:\\Users\\Perfect computer\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Perfect computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

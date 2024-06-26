@@ -1,0 +1,11 @@
+"Hello, my name is Zanair Hassan, and I recently graduated with a Bachelor's degree in Information Technology from the University of Gujrat. During my academic journey, I developed a strong foundation in software development principles, algorithms, and data structures. I am particularly passionate about .NET development, and I've honed my skills in C#, ASP.NET Core, and SQL through various projects and internships.
+
+In my recent role as a .NET Developer at HuboWeb, I gained hands-on experience in developing backend code for websites and APIs. One of my key projects involved creating a utility to unzip folders, search for specific text files, and store the data in an SQL database. This project not only improved my technical skills but also enhanced my problem-solving abilities.
+
+I also worked on the AuditApp, where I implemented asymmetric encryption for user authentication and used dependency injections to meet service requirements. This experience taught me the importance of security and scalability in web applications.
+
+What sets me apart is my dedication to continuous learning and my ability to adapt to new challenges. For instance, my final year project, E_Dasterkhwan, developed using Flutter, focused on reducing food waste by connecting restaurants with community kitchens. This project allowed me to apply my technical skills to solve real-world problems, demonstrating my ability to innovate and think critically.
+
+I am particularly excited about this opportunity at your organization because I admire your commitment to innovation and excellence in software development. I am confident that my technical skills, coupled with my proactive approach and passion for learning, make me a strong fit for your team. I am eager to contribute to your projects and collaborate with your talented team to deliver high-quality solutions.
+
+Thank you for considering my application. I look forward to the possibility of contributing to your organization and growing both professionally and personally."

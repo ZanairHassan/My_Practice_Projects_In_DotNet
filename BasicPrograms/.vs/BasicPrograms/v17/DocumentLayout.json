@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|d:\\projects\\my_practice_projects_in_dotnet\\basicprograms\\basicprograms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|solutionrelative:basicprograms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|d:\\projects\\my_practice_projects_in_dotnet\\basicprograms\\basicprograms\\stringreversed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|solutionrelative:basicprograms\\stringreversed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|d:\\projects\\my_practice_projects_in_dotnet\\basicprograms\\basicprograms\\longestword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|solutionrelative:basicprograms\\longestword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|d:\\projects\\my_practice_projects_in_dotnet\\basicprograms\\basicprograms\\removedublicatevaluesfromarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|solutionrelative:basicprograms\\removedublicatevaluesfromarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|d:\\projects\\my_practice_projects_in_dotnet\\basicprograms\\basicprograms\\sortarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|solutionrelative:basicprograms\\sortarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|d:\\projects\\my_practice_projects_in_dotnet\\basicprograms\\basicprograms\\finditemwithindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0751D9-B997-45BB-9825-FF90CDAF415D}|BasicPrograms\\BasicPrograms.csproj|solutionrelative:basicprograms\\finditemwithindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SortArray.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\SortArray.cs",
+              "RelativeDocumentMoniker": "BasicPrograms\\SortArray.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\SortArray.cs",
+              "RelativeToolTip": "BasicPrograms\\SortArray.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAArwBoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:47:46.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RemoveDublicateValuesFromArray.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\RemoveDublicateValuesFromArray.cs",
+              "RelativeDocumentMoniker": "BasicPrograms\\RemoveDublicateValuesFromArray.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\RemoveDublicateValuesFromArray.cs",
+              "RelativeToolTip": "BasicPrograms\\RemoveDublicateValuesFromArray.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:47:44.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LongestWord.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\LongestWord.cs",
+              "RelativeDocumentMoniker": "BasicPrograms\\LongestWord.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\LongestWord.cs",
+              "RelativeToolTip": "BasicPrograms\\LongestWord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:47:43.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FindItemWithIndex.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\FindItemWithIndex.cs",
+              "RelativeDocumentMoniker": "BasicPrograms\\FindItemWithIndex.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\FindItemWithIndex.cs",
+              "RelativeToolTip": "BasicPrograms\\FindItemWithIndex.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:47:42.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\Program.cs",
+              "RelativeDocumentMoniker": "BasicPrograms\\Program.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\Program.cs",
+              "RelativeToolTip": "BasicPrograms\\Program.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAADwv6EAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:46:56.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringReversed.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\StringReversed.cs",
+              "RelativeDocumentMoniker": "BasicPrograms\\StringReversed.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\BasicPrograms\\BasicPrograms\\StringReversed.cs",
+              "RelativeToolTip": "BasicPrograms\\StringReversed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:46:14.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
