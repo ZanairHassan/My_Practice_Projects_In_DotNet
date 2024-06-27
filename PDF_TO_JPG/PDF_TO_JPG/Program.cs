@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
+using System;
+using System.IO;
 
 namespace PDF_TO_JPG
 {
@@ -8,27 +10,21 @@ namespace PDF_TO_JPG
 
         static void Main(string[] args)
         {
-            if (args.Length < 1)
-            {
-                Console.WriteLine("Please provide the path to the PDF file.");
-                return;
-            }
-
             // Setup configuration
             var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
+                .SetBasePath(Directory.GetCurrentDirectory()) // Ensure you have the correct using directives
                 .AddJsonFile("App.config", optional: true, reloadOnChange: true);
             Configuration = builder.Build();
 
-            string pdfFilePath = args[0];
-            string outputDirectory = Configuration["OutputDirectory"];
+            string searchDirectory = Configuration["SearchFileFolder"];
+            string outputBaseDirectory = Configuration["OutputDirectory"];
 
-            if (!Directory.Exists(outputDirectory))
+            if (!Directory.Exists(outputBaseDirectory))
             {
-                Directory.CreateDirectory(outputDirectory);
+                Directory.CreateDirectory(outputBaseDirectory);
             }
 
-            PdfConverterUtility.ConvertPdfToJpg(pdfFilePath, outputDirectory);
+            PdfConverterUtility.SearchAndConvertPdfs(searchDirectory, outputBaseDirectory);
         }
     }
 }

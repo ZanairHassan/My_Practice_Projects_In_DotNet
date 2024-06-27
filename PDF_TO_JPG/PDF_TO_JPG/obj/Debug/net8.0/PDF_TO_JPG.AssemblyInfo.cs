@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PDF_TO_JPG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b21ff57654bca75bcc13d7ef88929fa1e6bec83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5137b6c6aa00418b33e77370370ebe0ab32f2a83")]
 [assembly: System.Reflection.AssemblyProductAttribute("PDF_TO_JPG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PDF_TO_JPG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
