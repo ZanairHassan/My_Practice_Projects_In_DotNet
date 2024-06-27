@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\myauditapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|solutionrelative:myauditapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\myauditapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C5FAE14-43AD-47AA-AE1B-0783139CFB1C}|MyAuditApp\\MyAuditApp.csproj|solutionrelative:myauditapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFAC9CA-062A-4D90-B8C4-640C354A68D7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\myauditapp\\bll\\services\\mobilecompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66CF6CC6-A2F5-49C2-BB76-7F5C462AD637}|BLL\\BLL.csproj|solutionrelative:bll\\services\\mobilecompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyAuditApp\\Program.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\Program.cs",
+              "RelativeToolTip": "MyAuditApp\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:26:25.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyAuditApp\\appsettings.json",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\MyAuditApp\\appsettings.json",
+              "RelativeToolTip": "MyAuditApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T08:26:11.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "DAL\\Models\\User.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwCMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:24:54.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MobileCompanyVM.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\DAL\\ViewModels\\MobileCompanyVM.cs",
               "RelativeDocumentMoniker": "DAL\\ViewModels\\MobileCompanyVM.cs",
@@ -30,11 +81,12 @@
               "RelativeToolTip": "DAL\\ViewModels\\MobileCompanyVM.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T17:38:59.562Z"
+              "WhenOpened": "2024-06-17T17:38:59.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MobileCompanyService.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\MyAuditApp\\BLL\\Services\\MobileCompanyService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\MobileCompanyService.cs",

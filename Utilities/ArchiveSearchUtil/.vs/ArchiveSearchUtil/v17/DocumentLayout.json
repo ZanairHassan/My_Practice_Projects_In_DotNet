@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\archivesearchutil\\zipfilecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\zipfilecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|d:\\projects\\my_practice_projects_in_dotnet\\utilities\\archivesearchutil\\archivesearchutil\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\archivesearchutil\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\archivesearchutil\\searchzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\searchzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\archivesearchutil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\archivesearchutil\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\archivesearchutil\\searchzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EED4B3A-3982-46E0-8F7B-0C2A3E0ACF60}|ArchiveSearchUtil\\ArchiveSearchUtil.csproj|solutionrelative:archivesearchutil\\searchzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,31 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\ArchiveSearchUtil\\App.config",
               "RelativeDocumentMoniker": "ArchiveSearchUtil\\App.config",
               "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\ArchiveSearchUtil\\App.config",
               "RelativeToolTip": "ArchiveSearchUtil\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAByAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-07T09:06:11.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ZipFileCheck.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\ArchiveSearchUtil\\ZipFileCheck.cs",
-              "RelativeDocumentMoniker": "ArchiveSearchUtil\\ZipFileCheck.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\ArchiveSearchUtil\\ZipFileCheck.cs",
-              "RelativeToolTip": "ArchiveSearchUtil\\ZipFileCheck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T08:56:14.827Z",
+              "WhenOpened": "2024-05-07T09:06:11.815Z",
               "EditorCaption": ""
             },
             {
@@ -71,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\ArchiveSearchUtil\\Program.cs",
               "RelativeDocumentMoniker": "ArchiveSearchUtil\\Program.cs",
@@ -79,11 +63,12 @@
               "RelativeToolTip": "ArchiveSearchUtil\\Program.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAqwCsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:14:35.399Z"
+              "WhenOpened": "2024-05-07T09:14:35.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Utilities\\ArchiveSearchUtil\\ArchiveSearchUtil\\Logger.cs",
               "RelativeDocumentMoniker": "ArchiveSearchUtil\\Logger.cs",
@@ -91,8 +76,7 @@
               "RelativeToolTip": "ArchiveSearchUtil\\Logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T10:50:59.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T10:50:59.536Z"
             }
           ]
         }
