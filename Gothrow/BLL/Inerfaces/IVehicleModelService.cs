@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Inerfaces
 {
-    internal interface IVehicleModelService
+    public interface IVehicleModelService
     {
     }
 }

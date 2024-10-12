@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gothrow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+843d009b430a1bda1e623ba1fba4ba674a2be0b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b48d3f0fc2559524b081b859b27195b2c58d33c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gothrow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gothrow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

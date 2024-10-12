@@ -1,0 +1,15 @@
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\bin\Debug\net8.0\BLL.dll
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\bin\Debug\net8.0\BLL.pdb
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.dll
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.pdb
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\bin\Debug\net8.0\BLL.runtimeconfig.json
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\Projects\My_Practice_Projects_In_DotNet\Gothrow\BLL\obj\Debug\net8.0\BLL.genruntimeconfig.cache

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Inerfaces
 {
-    internal class IOurTeamService
+    public class IOurTeamService
     {
     }
 }

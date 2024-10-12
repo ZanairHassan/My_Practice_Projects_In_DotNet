@@ -3,92 +3,40 @@
   "WorkspaceRootPath": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ifaqsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ifaqsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C904EB81-927A-4B61-A5DF-E6A1558357DD}|Gothrow\\Gothrow.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\gothrow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C904EB81-927A-4B61-A5DF-E6A1558357DD}|Gothrow\\Gothrow.csproj|solutionrelative:gothrow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\dal\\migrations\\20241012230628_tbl_airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20241012230628_tbl_airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ibookingdriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ibookingdriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C904EB81-927A-4B61-A5DF-E6A1558357DD}|Gothrow\\Gothrow.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\gothrow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C904EB81-927A-4B61-A5DF-E6A1558357DD}|Gothrow\\Gothrow.csproj|solutionrelative:gothrow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\icustomerfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\icustomerfeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\dal\\dbcontext\\gothrowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|solutionrelative:dal\\dbcontext\\gothrowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\icustomerinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\icustomerinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\dal\\models\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iquotesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iquotesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\dal\\viewmodels\\usertypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|solutionrelative:dal\\viewmodels\\usertypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\dal\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|solutionrelative:dal\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iourteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iourteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iuserrolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iuserrolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iusertypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iusertypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iuservehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iuservehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ivehiclecolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ivehiclecolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ivehiclemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ivehiclemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ivehiclemakeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ivehiclemakeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\ivehicledetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\ivehicledetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\icomponentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\icomponentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iourservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iourservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iterminalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iterminalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\bll\\inerfaces\\iairportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F43C668-2FED-4B04-8ACA-A3765E31A308}|BLL\\BLL.csproj|solutionrelative:bll\\inerfaces\\iairportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|d:\\projects\\my_practice_projects_in_dotnet\\gothrow\\dal\\viewmodels\\airportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC038463-06B7-4B71-96DB-8FE7758645A5}|DAL\\DAL.csproj|solutionrelative:dal\\viewmodels\\airportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,292 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IFAQsService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IFAQsService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IFAQsService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IFAQsService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IFAQsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:48:08.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IEmailService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IEmailService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IEmailService.cs",
+              "Title": "20241012230628_tbl_Airport.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\Migrations\\20241012230628_tbl_Airport.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20241012230628_tbl_Airport.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\Migrations\\20241012230628_tbl_Airport.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20241012230628_tbl_Airport.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:47:42.373Z",
+              "WhenOpened": "2024-10-12T23:06:28.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IBookingDriverService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IBookingDriverService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IBookingDriverService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IBookingDriverService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IBookingDriverService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\Gothrow\\Program.cs",
+              "RelativeDocumentMoniker": "Gothrow\\Program.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\Gothrow\\Program.cs",
+              "RelativeToolTip": "Gothrow\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:46:10.511Z",
+              "WhenOpened": "2024-10-12T23:02:36.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ICustomerFeedbackService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\ICustomerFeedbackService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\ICustomerFeedbackService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\ICustomerFeedbackService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\ICustomerFeedbackService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "GoThrowDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\DBContext\\GoThrowDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\DBContext\\GoThrowDbContext.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\DBContext\\GoThrowDbContext.cs",
+              "RelativeToolTip": "DAL\\DBContext\\GoThrowDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:44:19.466Z",
+              "WhenOpened": "2024-10-12T22:44:57.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICustomerInformationService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\ICustomerInformationService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\ICustomerInformationService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\ICustomerInformationService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\ICustomerInformationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:43:43.208Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\Gothrow\\appsettings.json",
+              "RelativeDocumentMoniker": "Gothrow\\appsettings.json",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\Gothrow\\appsettings.json",
+              "RelativeToolTip": "Gothrow\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T22:32:18.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IQuotesService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IQuotesService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IQuotesService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IQuotesService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IQuotesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserTypeVM.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\ViewModels\\UserTypeVM.cs",
+              "RelativeDocumentMoniker": "DAL\\ViewModels\\UserTypeVM.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\ViewModels\\UserTypeVM.cs",
+              "RelativeToolTip": "DAL\\ViewModels\\UserTypeVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:42:43.074Z",
+              "WhenOpened": "2024-10-12T22:27:23.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IBookingService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IBookingService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IBookingService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IBookingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserType.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\Models\\UserType.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\UserType.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\Models\\UserType.cs",
+              "RelativeToolTip": "DAL\\Models\\UserType.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:42:26.442Z",
+              "WhenOpened": "2024-10-12T22:22:52.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IOurTeamService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IOurTeamService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IOurTeamService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IOurTeamService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IOurTeamService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "IUserRolesService.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserRolesService.cs",
+              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IUserRolesService.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserRolesService.cs",
+              "RelativeToolTip": "BLL\\Inerfaces\\IUserRolesService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:42:08.967Z",
+              "WhenOpened": "2024-10-12T22:20:18.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IUserTypeService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserTypeService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IUserTypeService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserTypeService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IUserTypeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AirportVM.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\ViewModels\\AirportVM.cs",
+              "RelativeDocumentMoniker": "DAL\\ViewModels\\AirportVM.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\ViewModels\\AirportVM.cs",
+              "RelativeToolTip": "DAL\\ViewModels\\AirportVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:41:45.489Z",
+              "WhenOpened": "2024-10-12T22:16:43.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDriverService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IDriverService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IDriverService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IDriverService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IDriverService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Airport.cs",
+              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\Models\\Airport.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Airport.cs",
+              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\DAL\\Models\\Airport.cs",
+              "RelativeToolTip": "DAL\\Models\\Airport.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:41:19.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IUserService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:40:58.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserVehicleService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserVehicleService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IUserVehicleService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IUserVehicleService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IUserVehicleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:40:36.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IVehicleColorService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleColorService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IVehicleColorService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleColorService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IVehicleColorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:40:02.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IVehicleModelService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleModelService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IVehicleModelService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleModelService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IVehicleModelService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:39:35.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IVehicleMakeService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleMakeService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IVehicleMakeService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleMakeService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IVehicleMakeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:39:03.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IVehicleDetailsService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleDetailsService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IVehicleDetailsService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IVehicleDetailsService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IVehicleDetailsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:38:36.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IServicesService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IServicesService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IServicesService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IServicesService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IServicesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:37:00.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IComponentService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IComponentService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IComponentService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IComponentService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IComponentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:36:33.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IOurServicesService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IOurServicesService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IOurServicesService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IOurServicesService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IOurServicesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:36:03.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IDiscountService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IDiscountService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IDiscountService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IDiscountService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IDiscountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:35:05.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ITerminalService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\ITerminalService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\ITerminalService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\ITerminalService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\ITerminalService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:34:38.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IAirportService.cs",
-              "DocumentMoniker": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IAirportService.cs",
-              "RelativeDocumentMoniker": "BLL\\Inerfaces\\IAirportService.cs",
-              "ToolTip": "D:\\Projects\\My_Practice_Projects_In_DotNet\\Gothrow\\BLL\\Inerfaces\\IAirportService.cs",
-              "RelativeToolTip": "BLL\\Inerfaces\\IAirportService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:33:52.827Z",
+              "WhenOpened": "2024-10-12T22:08:29.517Z",
               "EditorCaption": ""
             }
           ]
