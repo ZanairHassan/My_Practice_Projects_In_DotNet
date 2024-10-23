@@ -1,0 +1,655 @@
+-----------------------------------------------
+10/21/2024 11:28:11 AM
+Registering User
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 11:29:20 AM
+Registering User
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 11:37:39 AM
+Registering User
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 11:39:49 AM
+Registering User
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 11:39:50 AM
+Registered User 
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 11:44:10 AM
+Registering User
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 11:44:10 AM
+Registered User 
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:15:57 PM
+Login IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:16:53 PM
+Login IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:17:05 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AuditApp.Controllers.UserController.Login(LoginVM loginVm) in D:\HuboWeb\auditproj\AuditApp\AuditApp\Controllers\UserController.cs:line 99
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:17:28 PM
+Login IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:29:38 PM
+Your Token is 
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:29:38 PM
+Token is Empty
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:29:39 PM
+Token is not valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:29:39 PM
+Token is InValid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:38:20 PM
+Your Token is 
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:38:20 PM
+Token is Empty
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:38:20 PM
+Token is not valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 12:38:20 PM
+Token is InValid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:27:41 PM
+BulkActive IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:27:41 PM
+BulkActivating Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:27:43 PM
+BulkActivated Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:29:10 PM
+BulkDelete IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:29:10 PM
+BulkDeleting Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:29:10 PM
+BulkDeleted Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:53:18 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:53:18 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 2:53:33 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:36:01 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:36:01 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:36:06 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:39:02 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:39:02 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:39:07 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:51:23 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:51:23 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:51:28 PM
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ExpenseSubTypeName'.
+Invalid column name 'ExpenseTypeName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:3de0108b-83e0-4dca-b67b-b34fb5a4db3d
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BLL.Services.ExpenseService.CreateExpense(ExpenseVM expenseVM, Int32 expenseTypeId, Int32 expenseSubTypeId) in D:\HuboWeb\auditproj\AuditApp\BLL\Services\ExpenseService.cs:line 54
+   at AuditApp.Controllers.ExpenseController.CreateExpense(ExpenseVM expenseVM, Int32 expenseTypeId, Int32 expenseSubTypeId) in D:\HuboWeb\auditproj\AuditApp\AuditApp\Controllers\ExpenseController.cs:line 54
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:54:12 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:54:12 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 3:54:18 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:04:01 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:04:01 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:04:02 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:14:48 PM
+Deleting ExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:14:49 PM
+Expense Deleted
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:17:08 PM
+UpdateExpense IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:17:08 PM
+Updating expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:17:08 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:17:08 PM
+UpdateExpense: Expense with ID 2006 updated successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:20:43 PM
+BulkDelete IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:20:43 PM
+BulkDeleting Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:20:44 PM
+BulkDeleted Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:23:40 PM
+Login IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:26:54 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:26:54 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:26:54 PM
+CreateExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:26:54 PM
+Creating Expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:26:55 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:27:42 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:27:42 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:27:42 PM
+Deleting ExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:27:42 PM
+Expense Deleted
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:28:40 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:28:40 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:28:40 PM
+UpdateExpense IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:28:40 PM
+Updating expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:28:40 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:28:40 PM
+UpdateExpense: Expense with ID 2006 updated successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:10 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:11 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:11 PM
+CreateExpenseTypeDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:11 PM
+expensetype alreaady exist
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:32 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:32 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:32 PM
+CreateExpenseTypeDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:56:32 PM
+Expense type is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:57:58 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:57:58 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:57:58 PM
+CreateExpenseTypeDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 4:57:58 PM
+Expense type is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:13:35 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:13:35 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:13:40 PM
+Deleting ExpenseDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:13:45 PM
+Deleted ExpenseType with ID: 8
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:15:08 PM
+Fetching All expenses types Details
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:15:08 PM
+Fetched All expense types Details
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:16:59 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:16:59 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:16:59 PM
+Retrieved ExpenseType with ID: 7
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:19:30 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:19:30 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:19:30 PM
+UpdateExpenseTypes IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:19:30 PM
+Updating expense
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:19:30 PM
+Expense type is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:19:30 PM
+updatedExpenseType:successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:21:00 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:21:00 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:21:00 PM
+BulkDelete IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:21:00 PM
+BulkDeleting Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:21:00 PM
+BulkDeleted Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:33 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:33 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:33 PM
+BulkDelete IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:33 PM
+BulkDeleting Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:33 PM
+BulkDeleted Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:50 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:50 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:50 PM
+BulkDelete IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:50 PM
+BulkDeleting Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:23:50 PM
+BulkDeleted Users
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:57:02 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:57:02 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:57:02 PM
+CreateFundDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:57:02 PM
+Creating funds
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:57:03 PM
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'FundTypeName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9e3ce480-a8a6-4bbe-823c-3b65fcadc6ca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BLL.Services.FundService.CreateFund(FundVM fundVM, Int32 fundTypeId) in D:\HuboWeb\auditproj\AuditApp\BLL\Services\FundService.cs:line 39
+   at AuditApp.Controllers.FundController.CreateFund(FundVM fundVM, Int32 fundTypeId) in D:\HuboWeb\auditproj\AuditApp\AuditApp\Controllers\FundController.cs:line 55
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:58:17 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:58:17 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:58:17 PM
+CreateFundDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:58:17 PM
+Creating funds
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 5:58:18 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:03:29 PM
+GetFund: Retrieved fund with ID
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:04:11 PM
+GetFund: Retrieved fund with ID
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:05:00 PM
+GetFund: Retrieved fund with ID
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:05:40 PM
+Fetching All Funds Details
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:05:40 PM
+GetAllFund: Retrieved all funds
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:12:35 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:12:35 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:12:35 PM
+UpdateFunds IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:12:35 PM
+Updating FUnds
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:15:33 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AuditApp.Controllers.FundController.UpdateFund(Int32 fundID, FundVM fundVM)
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:20:53 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:20:53 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:20:53 PM
+UpdateFunds IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:20:53 PM
+Updating FUnds
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:20:56 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/21/2024 6:20:56 PM
+UpdateFund: Fund with ID updated
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:23:37 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:23:37 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:23:41 PM
+CreateInvestmentDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:23:41 PM
+Creating investmentTYpe
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:23:41 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:26:16 PM
+Your Token is eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InphbmFpckBnbWFpbC5jb20iLCJuYmYiOjE3Mjk1MDk4MjMsImV4cCI6MTcyOTUxMzQyMywiaWF0IjoxNzI5NTA5ODIzfQ.1S7x63RQ8HpfT0J0f5rr1yMNQCr4F16R9RmswFx_3HY
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:26:16 PM
+Token is valid
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:26:19 PM
+CreateInvestmentDetails IsCalled
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:26:19 PM
+Creating investmentTYpe
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:26:19 PM
+Expense is created successfully
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:27:11 PM
+Fetching All invest type Details
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:27:11 PM
+GetAllinvest: Retrieved all
+-----------------------------------------------
+-----------------------------------------------
+10/22/2024 5:27:50 PM
+investmentType: Retrieved  with ID 
+-----------------------------------------------
+-----------------------------------------------
+10/23/2024 12:05:49 PM
+investmentType: Retrieved  with ID 
+-----------------------------------------------

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tuU0fRSXZaRkpxXzL94f3nXMZdfc9HKpbWgCDkij7fw=",
+  "Source": "AuditApp",
+  "BasePath": "_content/AuditApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

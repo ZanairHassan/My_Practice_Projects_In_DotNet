@@ -1,0 +1,1632 @@
+[
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Expense/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.ExpenseBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseController",
+    "Method": "CreateExpense",
+    "RelativePath": "api/Expense/CreateExpense/{expenseTypeId}/{expenseSubTypeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expenseVM",
+        "Type": "DAL.ViewModels.ExpenseVM",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseSubTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseController",
+    "Method": "DeleteExpense",
+    "RelativePath": "api/Expense/DeleteExpense/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseController",
+    "Method": "GetAllExpense",
+    "RelativePath": "api/Expense/GetAllExpense",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseController",
+    "Method": "GetExpense",
+    "RelativePath": "api/Expense/GetExpense/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseController",
+    "Method": "UpdateExpense",
+    "RelativePath": "api/Expense/UpdateExpense/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseVM",
+        "Type": "DAL.ViewModels.ExpenseVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseTypeController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/ExpenseType/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.ExpenseTypeBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseTypeController",
+    "Method": "CreateExpenseType",
+    "RelativePath": "api/ExpenseType/CreateExpenseType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expenseTypeVM",
+        "Type": "DAL.ViewModels.ExpenseTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseTypeController",
+    "Method": "DeleteExpenseType",
+    "RelativePath": "api/ExpenseType/DeleteExpenseType/{expensetypeID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expensetypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseTypeController",
+    "Method": "GetAllExpenseType",
+    "RelativePath": "api/ExpenseType/GetAllExpenseType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseTypeController",
+    "Method": "GetExpenseType",
+    "RelativePath": "api/ExpenseType/GetExpenseType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ExpenseTypeController",
+    "Method": "UpdateExpenseType",
+    "RelativePath": "api/ExpenseType/UpdateExpenseType/{expensetypeID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expensetypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseTypeVM",
+        "Type": "DAL.ViewModels.ExpenseTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Fund/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.FundBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundController",
+    "Method": "CreateFund",
+    "RelativePath": "api/Fund/CreateFund/{fundTypeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundVM",
+        "Type": "DAL.ViewModels.FundVM",
+        "IsRequired": true
+      },
+      {
+        "Name": "fundTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundController",
+    "Method": "DeleteFund",
+    "RelativePath": "api/Fund/DeleteFund/{fundID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundController",
+    "Method": "GetAllFund",
+    "RelativePath": "api/Fund/GetAllFund",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundController",
+    "Method": "GetFund",
+    "RelativePath": "api/Fund/GetFund/{fundID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundController",
+    "Method": "UpdateFund",
+    "RelativePath": "api/Fund/UpdateFund/{fundID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fundVM",
+        "Type": "DAL.ViewModels.FundVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundTypeController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/FundType/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.FundTypeBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundTypeController",
+    "Method": "CreateFundType",
+    "RelativePath": "api/FundType/CreateFundType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundTypeVM",
+        "Type": "DAL.ViewModels.FundTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundTypeController",
+    "Method": "DeleteFundType",
+    "RelativePath": "api/FundType/DeleteFundType/{fundtypeID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundtypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundTypeController",
+    "Method": "GetAllFundType",
+    "RelativePath": "api/FundType/GetAllFundType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundTypeController",
+    "Method": "GetFundType",
+    "RelativePath": "api/FundType/GetFundType/{fundtypeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundtypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.FundTypeController",
+    "Method": "UpdateFundType",
+    "RelativePath": "api/FundType/UpdateFundType/{fundtypeID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundtypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fundTypeVM",
+        "Type": "DAL.ViewModels.FundTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Income/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.IncomeBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeController",
+    "Method": "CreateIncome",
+    "RelativePath": "api/Income/CreateIncome/{incomeTypeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeVM",
+        "Type": "DAL.ViewModels.IncomeVM",
+        "IsRequired": true
+      },
+      {
+        "Name": "incomeTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeController",
+    "Method": "DeleteIncome",
+    "RelativePath": "api/Income/DeleteIncome/{incomeID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeController",
+    "Method": "GetAllIncome",
+    "RelativePath": "api/Income/GetAllIncome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeController",
+    "Method": "GetIncome",
+    "RelativePath": "api/Income/GetIncome/{incomeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeController",
+    "Method": "UpdateIncome",
+    "RelativePath": "api/Income/UpdateIncome/{incomeID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "incomeVM",
+        "Type": "DAL.ViewModels.IncomeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeTypeController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/IncomeType/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.IncomeTypeBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeTypeController",
+    "Method": "CreateIncomeType",
+    "RelativePath": "api/IncomeType/CreateIncomeType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeTypeVM",
+        "Type": "DAL.ViewModels.IncomeTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeTypeController",
+    "Method": "DeleteIncomeType",
+    "RelativePath": "api/IncomeType/DeleteIncomeType/{incomeTypeID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeTypeController",
+    "Method": "GetAllIncomeType",
+    "RelativePath": "api/IncomeType/GetAllIncomeType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeTypeController",
+    "Method": "GetIncomeType",
+    "RelativePath": "api/IncomeType/GetIncomeType/{incomeTypeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.IncomeTypeController",
+    "Method": "UpdateIncomeType",
+    "RelativePath": "api/IncomeType/UpdateIncomeType/{incomeTypeID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incomeTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "incomeTypeVM",
+        "Type": "DAL.ViewModels.IncomeTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InsuranceController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Insurance/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.InsuranceBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InsuranceController",
+    "Method": "CreateInsurance",
+    "RelativePath": "api/Insurance/CreateInsurance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insuranceVM",
+        "Type": "DAL.ViewModels.InsuranceVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InsuranceController",
+    "Method": "DeleteInsurance",
+    "RelativePath": "api/Insurance/DeleteInsurance/{insuranceID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insuranceID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InsuranceController",
+    "Method": "GetAllInsurance",
+    "RelativePath": "api/Insurance/GetAllInsurance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InsuranceController",
+    "Method": "GetInsurance",
+    "RelativePath": "api/Insurance/GetInsurance/{insuranceID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insuranceID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InsuranceController",
+    "Method": "UpdateInsurance",
+    "RelativePath": "api/Insurance/UpdateInsurance/{insuranceID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "insuranceID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "insuranceVM",
+        "Type": "DAL.ViewModels.InsuranceVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Investment/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.InvestmentBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentController",
+    "Method": "CreateInvestment",
+    "RelativePath": "api/Investment/CreateInvestment/{investTypeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentVM",
+        "Type": "DAL.ViewModels.InvestmentVM",
+        "IsRequired": true
+      },
+      {
+        "Name": "investTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentController",
+    "Method": "DeleteInvestment",
+    "RelativePath": "api/Investment/DeleteInvestment/{investmentID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentController",
+    "Method": "GetAllInvestments",
+    "RelativePath": "api/Investment/GetAllInvestments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentController",
+    "Method": "UpdateInvestment",
+    "RelativePath": "api/Investment/UpdateInvestment/{investmentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "investmentVM",
+        "Type": "DAL.ViewModels.InvestmentVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentTypeController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/InvestmentType/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.InvestmentTypeBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentTypeController",
+    "Method": "CreateInvestmentType",
+    "RelativePath": "api/InvestmentType/CreateInvestmentType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentTypeVM",
+        "Type": "DAL.ViewModels.InvestmentTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentTypeController",
+    "Method": "DeleteInvestmentType",
+    "RelativePath": "api/InvestmentType/DeleteInvestmentType/{investmentTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "investmentTypeVM",
+        "Type": "DAL.ViewModels.InvestmentTypeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentTypeController",
+    "Method": "GetAllInvestMent",
+    "RelativePath": "api/InvestmentType/GetAllInvestMent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentTypeController",
+    "Method": "GetInvestmentType",
+    "RelativePath": "api/InvestmentType/GetInvestmentType/{investmentTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.InvestmentTypeController",
+    "Method": "UpdateInvestment",
+    "RelativePath": "api/InvestmentType/UpdateInvestment/{investmentTypeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investmentTypeVM",
+        "Type": "DAL.ViewModels.InvestmentTypeVM",
+        "IsRequired": true
+      },
+      {
+        "Name": "investmentTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.MobileCompanyController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/MobileCompany/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.MobileCompanyBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.MobileCompanyController",
+    "Method": "CreateMobileCompany",
+    "RelativePath": "api/MobileCompany/CreateMobileCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobileCompanyVM",
+        "Type": "DAL.ViewModels.MobileCompanyVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.MobileCompanyController",
+    "Method": "DeleteMobileCompany",
+    "RelativePath": "api/MobileCompany/DeleteMobileCompany/{mobilecompanyID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobilecompanyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.MobileCompanyController",
+    "Method": "GetAllMobileCompany",
+    "RelativePath": "api/MobileCompany/GetAllMobileCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.MobileCompanyController",
+    "Method": "GetMobileCompany",
+    "RelativePath": "api/MobileCompany/GetMobileCompany/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.MobileCompanyController",
+    "Method": "UpdateMobileCompany",
+    "RelativePath": "api/MobileCompany/UpdateMobileCompany/{mobilecompanyID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobilecompanyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mobileCompanyVM",
+        "Type": "DAL.ViewModels.MobileCompanyVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "GetModule",
+    "RelativePath": "api/Module/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Module/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.ModuleBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "CreateModule",
+    "RelativePath": "api/Module/CreateModule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "moduleVM",
+        "Type": "DAL.ViewModels.ModuleVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "DeleteModule",
+    "RelativePath": "api/Module/DeleteModule/{moduleID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "moduleID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "GetAllModule",
+    "RelativePath": "api/Module/GetAllModule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "GetModule",
+    "RelativePath": "api/Module/GetModule/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModuleController",
+    "Method": "UpdateModule",
+    "RelativePath": "api/Module/UpdateModule/{moduleID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "moduleID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "moduleVM",
+        "Type": "DAL.ViewModels.ModuleVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModulePermissionController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/ModulePermission/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.ModPermissionBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModulePermissionController",
+    "Method": "CreateModulePermission",
+    "RelativePath": "api/ModulePermission/CreateModulePermission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modulePermissionVM",
+        "Type": "DAL.ViewModels.ModulePermissionVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModulePermissionController",
+    "Method": "DeleteModulePermission",
+    "RelativePath": "api/ModulePermission/DeleteModulePermission/{modulepermissionID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modulepermissionID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModulePermissionController",
+    "Method": "GetAllModulePermission",
+    "RelativePath": "api/ModulePermission/GetAllModulePermission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModulePermissionController",
+    "Method": "GetModulePermission",
+    "RelativePath": "api/ModulePermission/GetModulePermission/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.ModulePermissionController",
+    "Method": "UpdateModulePermission",
+    "RelativePath": "api/ModulePermission/UpdateModulePermission/{modulepermissionID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modulepermissionID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "modulePermissionVM",
+        "Type": "DAL.ViewModels.ModulePermissionVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.SoftwareController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/Software/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.SoftwareBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.SoftwareController",
+    "Method": "CreateSoftware",
+    "RelativePath": "api/Software/CreateSoftware",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "softwareVM",
+        "Type": "DAL.ViewModels.SoftwareVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.SoftwareController",
+    "Method": "DeleteSoftware",
+    "RelativePath": "api/Software/DeleteSoftware/{softwareID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "softwareID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.SoftwareController",
+    "Method": "GetAllSoftware",
+    "RelativePath": "api/Software/GetAllSoftware",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.SoftwareController",
+    "Method": "GetSoftware",
+    "RelativePath": "api/Software/GetSoftware/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.SoftwareController",
+    "Method": "UpdateSoftware",
+    "RelativePath": "api/Software/UpdateSoftware/{softwareID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "softwareID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "softwareVM",
+        "Type": "DAL.ViewModels.SoftwareVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.TokenController",
+    "Method": "CreateToken",
+    "RelativePath": "api/Token/CreateToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenVM",
+        "Type": "DAL.ViewModels.TokenVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.TokenController",
+    "Method": "DeleteToken",
+    "RelativePath": "api/Token/DeleteToken/{tokenID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.TokenController",
+    "Method": "GetAllToken",
+    "RelativePath": "api/Token/GetAllToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.TokenController",
+    "Method": "GetToken",
+    "RelativePath": "api/Token/GetToken/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.TokenController",
+    "Method": "UpdateToken",
+    "RelativePath": "api/Token/UpdateToken/{tokenID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tokenVM",
+        "Type": "DAL.ViewModels.TokenVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "BulkActive",
+    "RelativePath": "api/User/BulkActive",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.UserBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/User/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.UserBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/User/ChangePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordVM",
+        "Type": "DAL.ViewModels.ChangePasswordVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/User/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.ForgotPasswordVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "GetAllBlockedUsers",
+    "RelativePath": "api/User/GetAllBlockedUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "GetTheUser",
+    "RelativePath": "api/User/GetUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "GetUserByToken",
+    "RelativePath": "api/User/GetUserByToken/{jwtToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jwtToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "GuestUser",
+    "RelativePath": "api/User/GuestUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guestUserVM",
+        "Type": "DAL.ViewModels.GuestUserVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginVm",
+        "Type": "DAL.ViewModels.LoginVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "DAL.ViewModels.UserVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "GetUserType",
+    "RelativePath": "api/UserType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "BulkDelete",
+    "RelativePath": "api/UserType/BulkDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DAL.ViewModels.BulkViewModels.UserTypeBulkVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "CreateUserType",
+    "RelativePath": "api/UserType/CreateUserType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userTypesVM",
+        "Type": "DAL.ViewModels.UserTypesVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "DeleteUserType",
+    "RelativePath": "api/UserType/DeleteUserType/{usertypeID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usertypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "GetAllUserType",
+    "RelativePath": "api/UserType/GetAllUserType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "GetUserType",
+    "RelativePath": "api/UserType/GetUserType/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.UserTypeController",
+    "Method": "UpdateUserType",
+    "RelativePath": "api/UserType/UpdateUserType/{usertypeID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usertypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userTypesVM",
+        "Type": "DAL.ViewModels.UserTypesVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuditApp.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AuditApp.WeatherForecast, AuditApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

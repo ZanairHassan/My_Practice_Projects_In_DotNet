@@ -1,0 +1,7 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im0ud2FxYXNAZ21haWwuY29tIiwibmJmIjoxNzIwNTIxNjM2LCJleHAiOjE3MjA1MjUyMzYsImlhdCI6MTcyMDUyMTYzNn0.i8QOZ3mi5ah65r2LFW1kCYzSmtM-GaaGOObzG1nrrIoDate:  2024/07/09 03:43:26||||| Retrieved all ExpenseTypes. Count: 6
+Date:  2024/07/09 03:44:13||||| GetExpense: Expense with ID 2 returned successfully
+Date:  2024/07/09 03:44:42||||| GetExpense: Expense with ID 2 returned successfully
+Date:  2024/07/09 03:52:24||||| DeleteExpense: Expense with ID 2 deleted successfully
+Date:  2024/07/09 04:28:09||||| seasion time out
+Date:  2024/07/09 04:29:09||||| User logged in successfully
+Date:  2024/07/09 04:30:39||||| seasion time out
