@@ -58,7 +58,7 @@ namespace BLL.Services
 
         public async Task<List<Fund>> GetAllFund()
         {
-            return await _auditDBContext.Funds.ToListAsync();
+            return await _auditDBContext.Funds.AsNoTracking().ToListAsync();
         }
 
         public async Task<Fund> GetFund(int fundID)
@@ -86,7 +86,11 @@ namespace BLL.Services
 
         public async Task<List<Fund>> BulkDelete(List<int> fundId)
         {
-            var funds = await _auditDBContext.Funds.Where(f => fundId.Contains(f.FundID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var funds = await _auditDBContext.Funds
+                .Where(f => fundId
+                .Contains(f.FundID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var fund in funds)
             {
                 fund.IsDeleted = true;

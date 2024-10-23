@@ -64,7 +64,7 @@ namespace BLL.Services
 
         public async Task<List<Expense>> GetAllExpense()
         {
-            return await _context.Expenses.Where(e => !e.IsDeleted).ToListAsync();
+            return await _context.Expenses.Where(e => !e.IsDeleted).AsNoTracking().ToListAsync();
         }
 
         public async Task<ExpenseVM> UpdateExpense(int expenseID, ExpenseVM expenseVM)
@@ -119,7 +119,7 @@ namespace BLL.Services
 
         public async Task<List<Expense>> BulkDelete(List<int> expenseId)
         {
-            var expenses = await _context.Expenses.Where(f => expenseId.Contains(f.ExpenseID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var expenses = await _context.Expenses.Where(f => expenseId.Contains(f.ExpenseID) && (f.IsDeleted == null || f.IsDeleted == false)).AsNoTracking().ToListAsync();
             foreach (var expense in expenses)
             {
                 expense.IsDeleted = true;

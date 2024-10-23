@@ -14,7 +14,6 @@ namespace BLL.Services
         {
             _auditAppDBContext = auditAppDBContext;
         }
-
         public async Task<Token> CreateToken(TokenVM tokenVM)
         {
             Token token = new Token();
@@ -34,7 +33,6 @@ namespace BLL.Services
             if (token != null)
             {
                 token.IsDeleted = true;
-                //token.TokenDeletedDate = DateTime.Now;
                 await _auditAppDBContext.SaveChangesAsync();
             }
 
@@ -43,7 +41,9 @@ namespace BLL.Services
 
         public async Task<List<Token>> GetAllToken()
         {
-            return await _auditAppDBContext.Tokens.Where(x => x.IsDeleted == false).ToListAsync();
+            return await _auditAppDBContext.Tokens.Where(x => x.IsDeleted == false)
+                .AsNoTracking()
+                .ToListAsync();
         }
 
         public async Task<Token> GetToken(int tokenID)
@@ -68,12 +68,15 @@ namespace BLL.Services
 
         public Task<Token> GetTokenByjwtToken(string token)
         {
-            return _auditAppDBContext.Tokens.Where(x => x.IsExpired == false && x.JwtToken == token).FirstOrDefaultAsync();
+            return _auditAppDBContext.Tokens
+                .Where(x => x.IsExpired == false && x.JwtToken == token)
+                .AsNoTracking()
+                .FirstOrDefaultAsync();
         }
 
         public async Task<List<Token>> GetTokenByUserId(int UserId)
         {
-            return await _auditAppDBContext.Tokens.Where(x => x.UserID == UserId).ToListAsync();
+            return await _auditAppDBContext.Tokens.Where(x => x.UserID == UserId).AsNoTracking().ToListAsync();
         }
 
         public async Task<Token> GetTokenByUserID(int userId)
@@ -108,7 +111,10 @@ namespace BLL.Services
 
         public async Task<List<Token>> ExpireTokensByUserId(int userId)
         {
-            var tokens = await _auditAppDBContext.Tokens.Where(t => t.UserID == userId && !t.IsExpired).ToListAsync();
+            var tokens = await _auditAppDBContext.Tokens
+                .Where(t => t.UserID == userId && !t.IsExpired)
+                .AsNoTracking()
+                .ToListAsync();
 
             if (tokens.Any())
             {
@@ -125,7 +131,11 @@ namespace BLL.Services
 
         public async Task<List<Token>> BulkDeleteTokens(List<int> tokenID)
         {
-            var delTokens = await _auditAppDBContext.Tokens.Where(f => tokenID.Contains(f.TokenID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var delTokens = await _auditAppDBContext.Tokens
+                .Where(f => tokenID
+                .Contains(f.TokenID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var token in delTokens)
             {
                 token.IsDeleted = true;
@@ -135,7 +145,6 @@ namespace BLL.Services
             await _auditAppDBContext.SaveChangesAsync();
             return delTokens;
         }
-
 
     }
 } 

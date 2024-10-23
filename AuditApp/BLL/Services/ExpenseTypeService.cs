@@ -61,7 +61,7 @@ namespace BLL.Services
 
         public async Task<List<ExpenseType>> GetAllExpenseType()
         {
-            return await _auditDBContext.ExpenseTypes.ToListAsync();
+            return await _auditDBContext.ExpenseTypes.AsNoTracking().ToListAsync();
         }
 
         public async Task<ExpenseType> GetExpenseByExpenseTypeName(string expenseTypeName)
@@ -92,7 +92,11 @@ namespace BLL.Services
 
         public async Task<List<ExpenseType>> BulkDelete(List<int> expenseTypeId)
         {
-            var expenseTypes = await _auditDBContext.ExpenseTypes.Where(f => expenseTypeId.Contains(f.ExpenseTypeID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var expenseTypes = await _auditDBContext.ExpenseTypes
+                .Where(f => expenseTypeId
+                .Contains(f.ExpenseTypeID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var expense in expenseTypes)
             {
                 expense.IsDeleted = true;

@@ -62,7 +62,10 @@ namespace BLL.Services
         public async Task RemoveUserRequest(int Userid)
         {
 
-            var requestsToRemove = await _askaiiDBContext.UserRequests.Where(ur => ur.UserID == Userid).ToListAsync();
+            var requestsToRemove = await _askaiiDBContext.UserRequests
+                .Where(ur => ur.UserID == Userid)
+                .AsNoTracking()
+                .ToListAsync();
 
             _askaiiDBContext.UserRequests.RemoveRange(requestsToRemove);
 

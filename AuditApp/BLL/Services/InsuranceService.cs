@@ -27,7 +27,7 @@ namespace BLL.Services
             await _auditDBContext.Insurances.AddAsync(insurance);
             await _auditDBContext.SaveChangesAsync();
             insuranceVM.ErrorMessage = string.Empty;
-            insuranceVM.SuccessMessage = "Expense is created successfully";
+            insuranceVM.SuccessMessage = "Insurance is created successfully";
             return insuranceVM;
         }
 
@@ -46,7 +46,7 @@ namespace BLL.Services
 
         public async Task<List<Insurance>> GetAllInsurance()
         {
-            return await _auditDBContext.Insurances.ToListAsync();
+            return await _auditDBContext.Insurances.AsNoTracking().ToListAsync();
         }
 
         public async Task<Insurance> GetInsurance(int insuranceID)
@@ -69,19 +69,22 @@ namespace BLL.Services
             _auditDBContext.Insurances.Update(insurance);
             await _auditDBContext.SaveChangesAsync();
             insuranceVM.ErrorMessage = string.Empty;
-            insuranceVM.SuccessMessage = "Expense is created successfully";
+            insuranceVM.SuccessMessage = "Insurance is created successfully";
             return insuranceVM;
 
         }
 
         public async Task<List<Insurance>> BulkDelete(List<int> insuranceId)
         {
-            var insurances = await _auditDBContext.Insurances.Where(f => insuranceId.Contains(f.InsuranceID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var insurances = await _auditDBContext.Insurances
+                .Where(f => insuranceId
+                .Contains(f.InsuranceID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var insurance in insurances)
             {
                 insurance.IsDeleted = true;
             }
-
             _auditDBContext.Insurances.UpdateRange(insurances);
             await _auditDBContext.SaveChangesAsync();
             return insurances;

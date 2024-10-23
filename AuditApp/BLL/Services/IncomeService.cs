@@ -57,7 +57,7 @@ namespace BLL.Services
 
         public async Task<List<Income>> GetAllIncome()
         {
-            return await _auditDBContext.Incomes.ToListAsync();
+            return await _auditDBContext.Incomes.AsNoTracking().ToListAsync();
         }
 
         public async Task<Income> GetIncome(int incomeID)
@@ -76,21 +76,23 @@ namespace BLL.Services
                 _auditDBContext.Incomes.Update(income);
                 await _auditDBContext.SaveChangesAsync();
                 incomeVM.ErrorMessage = string.Empty;
-                incomeVM.SuccessMessage = "Expense is created successfully";
+                incomeVM.SuccessMessage = "Income is created successfully";
                 return incomeVM;
             }
             return incomeVM;
         }
 
-
         public async Task<List<Income>> BulkDelete(List<int> incomeId)
         {
-            var incomes = await _auditDBContext.Incomes.Where(f => incomeId.Contains(f.IncomeID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var incomes = await _auditDBContext.Incomes
+                .Where(f => incomeId
+                .Contains(f.IncomeID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var income in incomes)
             {
                 income.IsDeleted = true;
             }
-
             _auditDBContext.Incomes.UpdateRange(incomes);
             await _auditDBContext.SaveChangesAsync();
             return incomes;

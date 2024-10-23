@@ -44,7 +44,7 @@ namespace BLL.Services
 
         public async Task<List<ExpenseSubType>> GetAllExpenseSubType()
         {
-            return await _auditDBContext.ExpenseSubTypes.ToListAsync();
+            return await _auditDBContext.ExpenseSubTypes.AsNoTracking().ToListAsync();
         }
 
         public async Task<ExpenseSubType> GetExpenseSubType(int expensesubtypeID)

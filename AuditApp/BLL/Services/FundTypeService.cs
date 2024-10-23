@@ -58,7 +58,7 @@ namespace BLL.Services
 
         public async Task<List<FundType>> GetAllFundType()
         {
-            return await _auditDBContext.Fundtypes.ToListAsync();
+            return await _auditDBContext.Fundtypes.AsNoTracking().ToListAsync();
         }
 
         public async Task<FundType> GetFundType(int fundtypeID)
@@ -90,7 +90,11 @@ namespace BLL.Services
 
         public async Task<List<FundType>> BulkDelete(List<int> fundTypeId)
         {
-            var fundTypes = await _auditDBContext.Fundtypes.Where(f => fundTypeId.Contains(f.FundTypeID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var fundTypes = await _auditDBContext.Fundtypes
+                .Where(f => fundTypeId
+                .Contains(f.FundTypeID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var fund in fundTypes)
             {
                 fund.IsDeleted = true;
@@ -103,13 +107,10 @@ namespace BLL.Services
 
         private void ValidateFundTypeDetailsVM(FundTypeVM fundTypeVM)
         {
-
-
             if (string.IsNullOrWhiteSpace(fundTypeVM.FundTypeName))
             {
                 throw new ArgumentException("FundTypeName type cannot be empty or null", nameof(fundTypeVM.FundTypeName));
             }
-
         }
 
         private async Task<bool> IsFundTypeNameDuplicate(string fundTypeName)

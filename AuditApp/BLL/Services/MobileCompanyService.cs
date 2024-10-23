@@ -32,7 +32,7 @@ namespace BLL.Services
             await _auditDBContext.MobileCompanies.AddAsync(mobileCompany);
             await _auditDBContext.SaveChangesAsync();
             mobileCompanyVM.ErrorMessage = string.Empty;
-            mobileCompanyVM.SuccessMessage = "Expense is created successfully";
+            mobileCompanyVM.SuccessMessage = "Mobile Company is created successfully";
             return mobileCompanyVM;
         }
 
@@ -49,7 +49,7 @@ namespace BLL.Services
 
         public async Task<List<MobileCompany>> GetAllMobileCompany()
         {
-            return await _auditDBContext.MobileCompanies.ToListAsync();
+            return await _auditDBContext.MobileCompanies.AsNoTracking().ToListAsync();
         }
 
         public async Task<MobileCompany> GetMobileCompany(int mobilecompanyID)
@@ -81,7 +81,11 @@ namespace BLL.Services
 
         public async Task<List<MobileCompany>> BulkDelete(List<int> mobileCompanyId)
         {
-            var mblcompany = await _auditDBContext.MobileCompanies.Where(f => mobileCompanyId.Contains(f.MobileCompanyID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var mblcompany = await _auditDBContext.MobileCompanies
+                .Where(f => mobileCompanyId
+                .Contains(f.MobileCompanyID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var mbl in mblcompany)
             {
                 mbl.IsDeleted = true;

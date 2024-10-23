@@ -50,7 +50,7 @@ namespace BLL.Services
 
         public async Task<List<ModulePermission>> GetAllModulePermission()
         {
-            return await _auditDBContext.ModulePermissions.ToListAsync();
+            return await _auditDBContext.ModulePermissions.AsNoTracking().ToListAsync();
         }
 
         public async Task<ModulePermission> GetModulePermission(int modulepermissionID)
@@ -60,7 +60,7 @@ namespace BLL.Services
 
         public async Task<List<ModulePermission>> GetModulePermissionbyUserid(int userId)
         {
-           return await _auditDBContext.ModulePermissions.Where(x=> x.UserID == userId).ToListAsync();
+           return await _auditDBContext.ModulePermissions.Where(x=> x.UserID == userId).AsNoTracking().ToListAsync();
         }
         public async Task<ModulePermissionVM> UpdateModulePermission(int modulepermissionID, ModulePermissionVM modulePermissionVM)
         {
@@ -80,7 +80,11 @@ namespace BLL.Services
 
         public async Task<List<ModulePermission>> BulkDelete(List<int> modPermissionId)
         {
-            var modPermission = await _auditDBContext.ModulePermissions.Where(f => modPermissionId.Contains(f.ModulePermissionID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var modPermission = await _auditDBContext.ModulePermissions
+                .Where(f => modPermissionId
+                .Contains(f.ModulePermissionID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var modPer in modPermission)
             {
                 modPer.IsDeleted = true;

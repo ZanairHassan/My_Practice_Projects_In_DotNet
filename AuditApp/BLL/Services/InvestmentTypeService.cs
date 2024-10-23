@@ -58,7 +58,7 @@ namespace BLL.Services
 
         public async Task<List<InvestmentType>> GetAllInvestmentTypes()
         {
-            return await _auditAppDBContext.InvestmentTypes.ToListAsync();
+            return await _auditAppDBContext.InvestmentTypes.AsNoTracking().ToListAsync();
         }
 
         public async Task<InvestmentType> GetInvestmentType(int investmentTypeId)
@@ -80,13 +80,17 @@ namespace BLL.Services
             _auditAppDBContext.InvestmentTypes.Update(investmentType);
             await _auditAppDBContext.SaveChangesAsync();
             investmentTypeVM.ErrorMessage = string.Empty;
-            investmentTypeVM.SuccessMessage = "Expense is created successfully";
+            investmentTypeVM.SuccessMessage = "InvestmentType is created successfully";
             return investmentTypeVM;
         }
 
         public async Task<List<InvestmentType>> BulkDelete(List<int> investTypeId)
         {
-            var investTypes = await _auditAppDBContext.InvestmentTypes.Where(f => investTypeId.Contains(f.InvestmentTypeId) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var investTypes = await _auditAppDBContext.InvestmentTypes
+                .Where(f => investTypeId
+                .Contains(f.InvestmentTypeId) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var investTyp in investTypes)
             {
                 investTyp.IsDeleted = true;

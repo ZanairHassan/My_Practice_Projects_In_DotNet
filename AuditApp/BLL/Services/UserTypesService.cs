@@ -37,7 +37,8 @@ namespace BLL.Services
 
         public async Task<UserTypes> DeleteUserTypes(int usertypesID)
         {
-            var usertypes = await _auditDBContext.UsersTypes.FirstOrDefaultAsync(x => x.UserTypesID == usertypesID);
+            var usertypes = await _auditDBContext.UsersTypes
+                .FirstOrDefaultAsync(x => x.UserTypesID == usertypesID);
             if (usertypes != null)
             {
                 usertypes.IsDeleted = true;
@@ -48,17 +49,19 @@ namespace BLL.Services
 
         public async Task<List<UserTypes>> GetAllUserTypes()
         {
-            return await _auditDBContext.UsersTypes.ToListAsync();
+            return await _auditDBContext.UsersTypes.AsNoTracking().ToListAsync();
         }
 
         public async Task<UserTypes> GetUserTypes(int usertypesID)
         {
-            return await _auditDBContext.UsersTypes.FirstOrDefaultAsync(x => x.UserTypesID == usertypesID);
+            return await _auditDBContext.UsersTypes
+                .FirstOrDefaultAsync(x => x.UserTypesID == usertypesID);
         }
 
         public async Task<UserTypesVM> UpdateUserTypes(int usertypesID, UserTypesVM usertypesVM)
         {
-            var usertypes = await _auditDBContext.UsersTypes.FirstOrDefaultAsync(x => x.UserTypesID == usertypesID);
+            var usertypes = await _auditDBContext.UsersTypes
+                .FirstOrDefaultAsync(x => x.UserTypesID == usertypesID);
            if(usertypes is null)
             {
                 return null;
@@ -73,7 +76,11 @@ namespace BLL.Services
 
         public async Task<List<UserTypes>> BulkDelete(List<int> userTypeId)
         {
-            var userTypes = await _auditDBContext.UsersTypes.Where(f => userTypeId.Contains(f.UserTypesID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var userTypes = await _auditDBContext.UsersTypes
+                .Where(f => userTypeId
+                .Contains(f.UserTypesID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var usertype in userTypes)
             {
                 usertype.IsDeleted = true;
@@ -90,7 +97,6 @@ namespace BLL.Services
             {
                 throw new ArgumentException("usertype type cannot be empty or null", nameof(UserTypesVM.UserType));
             }
-
         }
 
         private async Task<bool> IsUserTypeDuplicate(string userType)

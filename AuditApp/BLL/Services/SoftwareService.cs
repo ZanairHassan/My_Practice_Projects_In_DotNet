@@ -44,7 +44,7 @@ namespace BLL.Services
 
         public async Task<List<Software>> GetAllSoftware()
         {
-            return await _auditDBContext.Softwares.ToListAsync();
+            return await _auditDBContext.Softwares.AsNoTracking().ToListAsync();
         }
 
         public async Task<Software> GetSoftware(int softwareID)
@@ -71,7 +71,11 @@ namespace BLL.Services
 
         public async Task<List<Software>> BulkDelete(List<int> softwareId)
         {
-            var softwares = await _auditDBContext.Softwares.Where(f => softwareId.Contains(f.SoftwareID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var softwares = await _auditDBContext.Softwares
+                .Where(f => softwareId
+                .Contains(f.SoftwareID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var software in softwares)
             {
                 software.IsDeleted = true;

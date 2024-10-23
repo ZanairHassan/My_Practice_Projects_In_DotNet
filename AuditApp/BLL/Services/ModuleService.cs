@@ -42,7 +42,7 @@ namespace BLL.Services
         }
         public async Task<List<Module>> GetAllModule()
         {
-            return await _auditDBContext.Modules.ToListAsync();
+            return await _auditDBContext.Modules.AsNoTracking().ToListAsync();
         }
 
         public async Task<Module> GetModule(int moduleID)
@@ -67,7 +67,11 @@ namespace BLL.Services
 
         public async Task<List<Module>> BulkDelete(List<int> moduleId)
         {
-            var modules = await _auditDBContext.Modules.Where(f => moduleId.Contains(f.ModuleID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var modules = await _auditDBContext.Modules
+                .Where(f => moduleId
+                .Contains(f.ModuleID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var module in modules)
             {
                 module.IsDeleted = true;
@@ -77,6 +81,5 @@ namespace BLL.Services
             await _auditDBContext.SaveChangesAsync();
             return modules;
         }
-
     }
 }

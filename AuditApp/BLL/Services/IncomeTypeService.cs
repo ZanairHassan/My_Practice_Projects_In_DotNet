@@ -46,7 +46,6 @@ namespace BLL.Services
             if (incometype != null)
             {
                 incometype.IsDeleted = true;
-                // incometype.IncomeTypeDeletedDate = DateTime.Now;
                 await _auditDBContext.SaveChangesAsync();
             }
             return incometype;
@@ -54,7 +53,7 @@ namespace BLL.Services
 
         public async Task<List<IncomeType>> GetAllIncomeType()
         {
-            return await _auditDBContext.IncomeTypes.ToListAsync();
+            return await _auditDBContext.IncomeTypes.AsNoTracking().ToListAsync();
         }
 
         public async Task<IncomeType> GetIncomeType(int incometypeID)
@@ -79,13 +78,17 @@ namespace BLL.Services
             _auditDBContext.IncomeTypes.Update(incometype);
             await _auditDBContext.SaveChangesAsync();
             incometypeVM.ErrorMessage = string.Empty;
-            incometypeVM.SuccessMessage = "Expense is created successfully";
+            incometypeVM.SuccessMessage = "Income Type is created successfully";
             return incometypeVM;
         }
 
         public async Task<List<IncomeType>> BulkDelete(List<int> incometypeID)
         {
-            var incomeTypes = await _auditDBContext.IncomeTypes.Where(f => incometypeID.Contains(f.IncomeTypeID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var incomeTypes = await _auditDBContext.IncomeTypes
+                .Where(f => incometypeID
+                .Contains(f.IncomeTypeID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var income in incomeTypes)
             {
                 income.IsDeleted = true;

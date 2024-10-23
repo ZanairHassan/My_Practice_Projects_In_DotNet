@@ -31,8 +31,6 @@ namespace BLL.Services
         {
             User user = new User();
             user.CreatedDate = DateTime.Now;
-            //user.UserID = userVM.UsersID;
-            //user.CreatedBy = userVM.UsersID;
             user.UserName = userVM.UserName;
             user.Password = userVM.Password;
             user.Email = userVM.Email;
@@ -167,7 +165,6 @@ namespace BLL.Services
 
                 User guestUser = null;
 
-                // Check if the guest user already exists
                 var existingGuest = await _auditDBContext.Users.FirstOrDefaultAsync(u => u.Email == guestEmail);
                 if (existingGuest == null)
                 {
@@ -222,7 +219,6 @@ namespace BLL.Services
             if (user != null)
             {
                 user.IsDeleted = true;
-                //user.UserDeletedDate = DateTime.Now;
                 await _auditDBContext.SaveChangesAsync();
             }
             return user;
@@ -230,7 +226,7 @@ namespace BLL.Services
 
         public async Task<List<User>> GetAllUser()
         {
-            return await _auditDBContext.Users.ToListAsync();
+            return await _auditDBContext.Users.AsNoTracking().ToListAsync();
         }
 
         public async Task<User> GetUser(int userID)
@@ -240,7 +236,10 @@ namespace BLL.Services
 
         public async Task<List<User>> GetAllBlockUsers()
         {
-            return await _auditDBContext.Users.Where(x => x.IsBlocked == true).ToListAsync();
+            return await _auditDBContext.Users
+                .Where(x => x.IsBlocked == true)
+                .AsNoTracking()
+                .ToListAsync();
         }
 
         public async Task<User> GetUserByEmail(string email)
@@ -279,7 +278,11 @@ namespace BLL.Services
 
         public async Task<List<User>> BulkActive(List<int> userId, bool isActive)
         {
-            var users=await _auditDBContext.Users.Where(x=> userId.Contains(x.UserID) && (x.IsDeleted==null || x.IsDeleted==false)).ToListAsync();
+            var users=await _auditDBContext.Users
+                .Where(x=> userId
+                .Contains(x.UserID) && (x.IsDeleted==null || x.IsDeleted==false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var user in users)
             {
                 if (user != null)
@@ -297,7 +300,11 @@ namespace BLL.Services
 
         public async Task<List<User>> BulkDeleteUser(List<int> usersId)
         {
-            var users = await _auditDBContext.Users.Where(f => usersId.Contains(f.UserID) && (f.IsDeleted == null || f.IsDeleted == false)).ToListAsync();
+            var users = await _auditDBContext.Users
+                .Where(f => usersId
+                .Contains(f.UserID) && (f.IsDeleted == null || f.IsDeleted == false))
+                .AsNoTracking()
+                .ToListAsync();
             foreach (var user in users)
             {
                 user.IsDeleted = true;
